@@ -5,7 +5,7 @@ function rain() {
     e.classList.add('drop');
     clound.appendChild(e);
 
-    let left = Math.floor(Math.random()*290);
+    let left = Math.floor(Math.random()*290-150);
     let size = Math.round() * 1.5;
     let duration = Math.random();
 
